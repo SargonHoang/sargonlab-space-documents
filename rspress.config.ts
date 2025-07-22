@@ -5,6 +5,8 @@ import { nav } from './nav.config';
 import { sidebar } from './sidebars/sidebar.config';
 
 export default defineConfig({
+  base: '/', // Quan trọng cho Cloudflare Pages
+  outDir: 'doc_build',
   root: path.join(__dirname, 'docs'),
   title: 'Sargon Lab',
   icon: '/rspress-icon.png',
