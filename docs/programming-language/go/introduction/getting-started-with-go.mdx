@@ -1,0 +1,318 @@
+---
+title: 'Getting Started with Go'
+---
+
+import { Tab, Tabs } from 'rspress/theme';
+
+Go is a versatile programming language used for a range of applications including complex backends, web applications, and cloud native applications.
+
+You can run Go on your computer using the following two methods:
+
+- Run Go online
+
+- Install Go on your computer
+
+In this tutorial, you will learn both methods.
+
+## Run Go Online
+
+To run Go code, you must have the Go compiler installed on your system. However, if you want to start immediately, you can use our free [online Go compiler](https://www.programiz.com/golang/online-compiler/).
+
+![Online Go Compiler](/images/programming-language/go/introduction/getting-started/go-getting-started-compiler-go.png)
+
+The online editor enables you to run Go code directly in your browser—no installation required.
+
+## Install Go on Your Computer
+
+For those who prefer to install C# on your computer, this guide will walk you through the installation process on Windows, macOS, or Linux (Ubuntu).
+
+<Tabs>
+    <Tab label="Windows">
+
+To install Go on your Windows, just follow these steps:
+
+1. Install VS Code
+
+2. Check Go version
+
+3. Download the Go Installer File
+
+4. Run the Installer
+
+5. Verify Your Installation
+
+Here is a detailed explanation of each of the steps:
+
+#### Step 1: Install VS Code
+
+Go to the [VS Code official website](https://code.visualstudio.com/download) and download the Windows installer. Once the download is complete, run the installer and follow the installation process.
+
+![Run Your Program](/images/programming-language/go/introduction/getting-started/go-getting-started-run-your-go-program.png)
+
+Click Finish to complete the installation process.
+
+#### Step 2: Check Go Version
+
+To build and run Go applications, you need Go installed on your Windows machine.
+
+You can check if Go is already installed and verify the installed version by using the following command in the Command Prompt:
+
+```shell
+go version
+```
+
+![Go Version](/images/programming-language/go/introduction/getting-started/go-getting-started-go-version-windows.png)
+
+If the command returns a version, you have the Go installed; if not, proceed to download and install Go.
+
+#### Step 3: Download the Go Installer File
+
+Visit the [Go Download page](https://go.dev/doc/install) and click on the download button, then choose the installer for Windows.
+
+Simply click on the recommended download link to get the correct installer.
+
+![Go Download Page](/images/programming-language/go/introduction/getting-started/go-getting-started-download-page-windows.png)
+
+#### Step 4: Run the Installer
+
+After the download is complete, look for the file you just downloaded. Double-click the file to open the installer.
+
+A setup wizard pops up in the screen like in the following image,
+
+![Go Installer](/images/programming-language/go/introduction/getting-started/go-getting-started-go-installer-windows.png)
+
+Click on **Next** till your installation process starts.
+
+Once the installation is complete, you will see this screen:
+
+![Go Installation Successful](/images/programming-language/go/introduction/getting-started/go-getting-started-installation-successful-windows.png)
+
+Click **Finish** to exit the installer.
+
+#### Step 5: Verify Your Installation
+
+Once the installation is complete, you can verify whether Go is installed correctly on your Windows machine by using the following command in the Command Prompt:
+
+```shell
+go version
+```
+
+![Go Version](/images/programming-language/go/introduction/getting-started/go-getting-started-go-version-windows.png)
+
+:::note
+The version number might differ from the one above, depending on your installed version.
+:::
+
+Now, you are all set to run the Go program on your device.
+
+    </Tab>
+
+    <Tab label="MacOS">
+
+To install Go on your Mac, just follow these steps:
+
+1. Install VS Code
+
+2. Check Go version
+
+3. Download the Go Installer File
+
+4. Run the Installer
+
+5. Follow the Instructions
+
+6. Verify Your Installation
+
+Here is a detailed explanation of each of the steps:
+
+#### Step 1: Install VS Code
+
+Go to the [VS Code official website](https://code.visualstudio.com/download) and download the zipped file. Once the download is complete, open the zipped file.
+
+In Finder, open a new window and navigate to the Applications folder. Drag the VS Code application from the zip file into the Applications folder to install it.
+
+You can now launch VS Code directly from the Applications folder.
+
+#### Step 2: Check Go Version
+
+To build and run Go applications, you need Go installed. You can check if Go is already installed by using the following command in the Terminal app:
+
+```shell
+go version
+```
+
+If Go is already installed and you are satisfied with the installed version, you can skip the remaining steps. Otherwise, follow the steps below.
+
+#### Step 3: Download the Go Installer File
+
+Visit the [Go Download page](https://go.dev/doc/install) and click on the download button, then choose the downloader for macOS.
+
+![Go Download Page for Mac](/images/programming-language/go/introduction/getting-started/go-getting-started-go-download-page-mac1.png)
+
+#### Step 4: Run the Installer
+
+Go to your downloads folder and run the installer you just downloaded.
+
+![Go Run Installer for Mac](/images/programming-language/go/introduction/getting-started/go-getting-started-go-run-installer-mac1.png)
+
+#### Step 5: Follow the Instructions
+
+You will be prompted to agree to the software license agreement, choose the installation location (we recommend using **default** location), and enter your administrator password.
+
+Simply proceed through it.
+
+Once the installation is complete, you will see this screen:
+
+![Go Installation Successful](/images/programming-language/go/introduction/getting-started/go-getting-started-go-installation-complete-mac1.png)
+
+Click **Close** to exit the installer.
+
+#### Step 6: Verify Your Installation
+
+Once the installation is complete, you can verify whether Go is installed by using the following command in the Terminal app:
+
+```shell
+go version
+```
+
+![Go Installation Verification for Mac](/images/programming-language/go/introduction/getting-started/getting-started-go-installation-verify-mac1.png)
+
+:::note
+The version number might differ from the one above, depending on your installed version.
+:::
+
+    </Tab>
+    <Tab label="Linux">
+
+Linux has various distributions, and the installation process differs slightly from each other. For now, we will focus on Ubuntu.
+
+To install Go follow these steps:
+
+1. Install VS Code
+
+2. Download Go
+
+3. Extract the downloaded file
+
+4. Add to environment variable
+
+5. Verify your Installation
+
+Here is a detailed explanation of each of the steps:
+
+#### Step 1: Install VS Code
+
+Open the Terminal and type
+
+```shell
+sudo apt update
+```
+
+This command updates your package lists to ensure you get the latest versions of your software.
+
+Proceed to install VS Code with
+
+```shell
+sudo snap install code --classic
+```
+
+#### Step 2: Download Go
+
+Visit the [Go Download page](https://go.dev/doc/install) and click on the download button then choose the downloader for Linux.
+
+![Download Go](/images/programming-language/go/introduction/getting-started/go-getting-started-download-go-linux.png)
+
+#### Step 3: Extract the Downloaded File
+
+Move to directory where the file was downloaded and run the following command:
+
+```shell
+sudo tar -C /usr/local -xzf go1.23.1.linux-amd64.tar.gz
+```
+
+![Extract the Go files](/images/programming-language/go/introduction/getting-started/go-getting-started-extract-download-file.png)
+
+#### Step 4: Add to the Environment Variable
+
+To use the `go` command in the terminal, we need to add the Go binary to the environment variable. We do so using the following command:
+
+```shell
+echo "export PATH=$PATH:/usr/local/go/bin" >> $HOME/.profile
+```
+
+![Set Environment Variable for Go Ubuntu](/images/programming-language/go/introduction/getting-started/go-getting-started-set-go-env-variable-ubuntu.png)
+
+After the command is executed, restart your computer to ensure that the Go binary is successfully added to the environment path variable.
+
+#### Step 5: Verify Installation
+
+To ensure that the Go has been installed correctly, verify the installation by checking Go version using the following command,
+
+```shell
+go version
+```
+
+![Check Go Version Ubuntu](/images/programming-language/go/introduction/getting-started/go-getting-started-check-go-version-ubuntu.png)
+
+Now, you are all set to run Go programs on your device.
+
+    </Tab>
+
+</Tabs>
+
+## Run Your First Go Program
+
+There are a few things you'll need to set up for running your first Go program.
+
+- Install the Required Extensions in VS Code
+
+- Create a Go file
+
+- Write Your Go Program
+
+- Run Your Program
+
+### Install the required Extensions in VS Code
+
+Before you begin coding, ensure that the **Code Runner** and **Go** extension is installed in VS Code.
+
+Open VS Code and click on **Extensions** on the left sidebar. Search for **Code Runner** and click on **Install**. The Code Runner extension will allow you to run and execute Go code within VS Code.
+
+![Code Runner Extension in VS Code](/images/programming-language/go/introduction/getting-started/go-getting-started-install-code-runner-extension-vs-code.png)
+
+Similarly install the **Go** extension,
+
+![Go Extension in VS Code](/images/programming-language/go/introduction/getting-started/go-getting-started-install-go-extension-vs-ubuntu.png)
+
+This extension provides Go language support, debugging, and more, helping you develop Go applications efficiently.
+
+### Create a Go File
+
+In VS Code, Click on the **File** in the top menu and then select **New File**.
+
+![Create a New File in VS Code](/images/programming-language/go/introduction/getting-started/go-getting-started-create-new-file-for-go.png)
+
+Then, save this file with a .go extension by clicking on **File** again, then **Save As**, and type your filename ending in `.go`. (Here, we are saving it as `main.go`).
+
+### Write Your Go Program
+
+Now that you have created the file, it's time to start coding. Open the `main.go` file and write the following code:
+
+```go title="main.go"
+package main;
+import "fmt"
+
+func main(){
+    fmt.Println("Hello World!");
+}
+```
+
+### Run Your Program
+
+Now it's time to run your first Go program. Click the run button at the top right of the VS Code Window.
+
+![Run Your Program](/images/programming-language/go/introduction/getting-started/go-getting-started-run-your-go-program.png)
+
+You should see `Hello World!` output to the console.
+
+Now that you have set everything up to run the Go program on your computer, you'll be learning how the basic program works in Go in the next tutorial.
